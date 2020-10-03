@@ -39,7 +39,7 @@ def predict():
   
 
 def loadModel():
-    classifier = load(r'prediction/model.joblib')
+    classifier = load(r'/home/site/wwwroot/prediction/model.joblib')
     return classifier
     
 model = loadModel()
