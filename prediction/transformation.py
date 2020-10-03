@@ -3,12 +3,12 @@ from preprocessing.preprocessing import preprocessing
 
    
 def load_count_vectorizer():
-    count_vect = load(r'prediction/count_vect.joblib')
+    count_vect = load(r'/home/site/wwwroot/prediction/count_vect.joblib')
     return count_vect
 
 
 def load_tfidf_transformer():
-    tfidf_transformer = load(r'prediction/tfidf_transformer.joblib')
+    tfidf_transformer = load(r'/home/site/wwwroot/prediction/tfidf_transformer.joblib')
     return tfidf_transformer
 
 
