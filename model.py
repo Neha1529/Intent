@@ -191,7 +191,4 @@ print("Precision score:",metrics.precision_score(y_test, y_pred ,labels = train[
 
 """#Model Serialization"""
 
-import pickle
-filehandler = open("model.pkl","wb")
-pickle.dump(model,filehandler)
-filehandler.close()
+dump(model , 'model.joblib')
